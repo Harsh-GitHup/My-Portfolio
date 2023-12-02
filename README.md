@@ -2,7 +2,7 @@
 
 My Portfolio Website - Harsh Kesharwani
 
-# Screenshots Of My Portfolio
+# Overview Of My Portfolio
 
 # ![image](https://github.com/harshgithup/Portfolio/assets/116560172/0da3d9d9-4718-4473-8b0c-b0e41029048f)
 
