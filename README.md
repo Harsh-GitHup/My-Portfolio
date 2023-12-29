@@ -16,4 +16,4 @@ My Portfolio Website - Harsh Kesharwani
 
 # ![image](https://github.com/harshgithup/Portfolio/assets/116560172/8c9c58ed-0f8d-46c9-92fb-6f9314e4cac8)
 
-# [Let's take a tour -](https://harshgithup.github.io/My-Portfolio/)
+# [Let's take a tour of My Portfolio](https://harshgithup.github.io/My-Portfolio/)
