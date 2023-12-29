@@ -221,13 +221,13 @@ img {
   -webkit-background-clip: text;
   background-clip: none;
   background-position: -500px 0;
-  animation: backcolor 8s linear infinite;
+  animation: backcolor 6s linear infinite;
 }
 
 @keyframes backcolor {
 
   100% {
-      -webkit-text-stroke: 1px #33383C;
+      -webkit-text-stroke: 1px #000;
       background-position: 0 0;
   }
 }
