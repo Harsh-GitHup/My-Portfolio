@@ -497,6 +497,7 @@ h6:hover{color: blue;}
   }
   .home__img {
     width: 200px;
+    margin-top: 20px;
   }
 }
 
@@ -517,6 +518,7 @@ h6:hover{color: blue;}
   .home__img {
     width: 300px;
     bottom: 25%;
+    top: 20px;
   }
   .about__container {
     grid-template-columns: repeat(2, 1fr);
