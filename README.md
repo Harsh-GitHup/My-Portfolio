@@ -10,9 +10,7 @@ My Portfolio Website - Harsh Kesharwani
 
 # ![image](https://github.com/harshgithup/Portfolio/assets/116560172/40550cb4-5c59-4de5-b26e-e9c3c595ae8b)
 
-# ![image](https://github.com/harshgithup/Portfolio/assets/116560172/f3bbe6c3-6ac2-4623-b07b-962e90de62e3)
-
-# ![get in touch](https://github.com/harshgithup/My-Portfolio/assets/116560172/fc910218-0fee-414c-aaee-239d3b77b060)
+# ![image](https://github.com/harshgithup/Portfolio/assets/116560172/f3bbe6c3-6ac2-4623-b07b-962e90de62e3) 
 
 # ![image](https://github.com/Harsh-GitHup/My-Portfolio/assets/116560172/d8897dcc-98a2-409b-86b7-dddff3503b7b)
 
