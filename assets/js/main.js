@@ -6,10 +6,23 @@ const showMenu = (toggleId, navId) =>{
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
             nav.classList.toggle('show')
-        })
+        });
     }
 }
 showMenu('nav-toggle','nav-menu')
+
+/* Function for toggle section visibility */
+function showActiveSection() {
+    const sections = document.querySelectorAll('section[id]');
+    sections.forEach(section => {
+        const link = document.querySelector(`.nav__link[href="#${section.id}"]`);
+        if (link.classList.contains('active')) {
+            section.style.display = 'block';
+        } else {
+            section.style.display = 'none';
+        }
+    });
+}
 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
@@ -17,7 +30,8 @@ const navLink = document.querySelectorAll('.nav__link')
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
     // When we click on each nav__link, we remove the show-menu class
-    navMenu.classList.remove('show')
+    navMenu.classList.remove('show');
+    showActiveSection();
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
@@ -37,9 +51,12 @@ function scrollActive(){
         }else{
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active')
         }
-    })
+    });
+    showActiveSection();
 }
-window.addEventListener('scroll', scrollActive)
+window.addEventListener('scroll', scrollActive);
+
+document.addEventListener('DOMContentLoaded', showActiveSection);
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
