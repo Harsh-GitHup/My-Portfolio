@@ -78,14 +78,6 @@ img {
   display: block;
 }
 
-section {
-    display: none;
-}
-
-section.active {
-    display: block;
-}
-
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
