@@ -436,7 +436,12 @@ img {
 }
 
 .work__text h4, .work__text h6, .work__text h5 {
-  margin: 10px;
+  margin: 5px;
+}
+
+.work__text h4 {
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 .work__img:hover .work__text {
